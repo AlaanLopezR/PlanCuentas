@@ -1,9 +1,13 @@
 # PlanCuentas
 CRUD DE MANTENIMIENTO 
-Ejercicio en python con conexion a base de datos MySQL 
+Ejercicio en python con conexion a base de datos MySQL.
+
 Integrantes:
+
 MORÁN NUGRA FABIOLA YOMIRA
+
 LÓPEZ ROMERO ALAN ARIEL
+
 IDROVO CAMPOVERDE JHON ALFREDO
 
 # Script Base de datos
@@ -31,8 +35,14 @@ CREATE TABLE IF NOT EXISTS `plancuenta` (
 
 
 INSERT INTO Grupo (descripcion) VALUES('Cta Corriente'); 
+
 INSERT INTO Grupo (descripcion) VALUES('Cta Ahorros'); 
 
+
 INSERT INTO PlanCuenta(codigo,grupo,descripcion,naturaleza,estado) VALUES ('1',1,'Cuenta familiar','D',TRUE);
+
 INSERT INTO PlanCuenta(codigo,grupo,descripcion,naturaleza,estado) VALUES ('2',1,'Cuenta empresarial','D',TRUE); 
+
 INSERT INTO PlanCuenta(codigo,grupo,descripcion,naturaleza,estado) VALUES ('3',2,'Cuenta','A',TRUE); 
+
+ 
